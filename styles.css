@@ -56,10 +56,8 @@ p {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    left: 50%;
-    translate: -50%;
 }
 
 .attribution {
@@ -81,9 +79,4 @@ footer {
         min-height: 667px;
     }
 
-    footer {
-        position: static;
-        margin-top: 30px;
-        translate: 0;
-    }
 }
