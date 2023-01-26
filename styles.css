@@ -80,4 +80,10 @@ footer {
     body {
         min-height: 667px;
     }
+
+    footer {
+        position: static;
+        margin-top: 30px;
+        translate: 0;
+    }
 }
